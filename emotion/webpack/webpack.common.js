@@ -5,7 +5,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: join(__dirname, '../src/index.ts'),
+  entry: join(__dirname, '../src/index.tsx'),
   devtool: 'eval-source-map',
   output: {
     filename: 'main.js',
@@ -27,7 +27,6 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: join(__dirname, '../public/index.html'),
-      favicon: join(__dirname, '../public/favicon.png'), // favicon경로도 설정할 수 있습니다
     }),
     new CleanWebpackPlugin(),
   ],
