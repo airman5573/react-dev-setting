@@ -35,6 +35,7 @@
     "plugin:react-hooks/recommended", // react-hook관련 rule을 적용한다
     "plugin:import/recommended", // import관련 rule을 적용한다
     "plugin:import/typescript", // typescript import관련 rule을 적용한다
+    "plugin:storybook/recommended", // storybook 관련 rule을 적용한다
     "plugin:prettier/recommended", // .prettierrc.json에 기입한 prettier rule을 eslint rule로 적용한다
     "plugin:@typescript-eslint/recommended" // typescript관련 rule을 적용한다
   ],
