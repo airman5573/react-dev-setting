@@ -1,10 +1,10 @@
-const { merge } = require("webpack-merge");
+const { merge } = require('webpack-merge');
 
-const common = require("./webpack.common");
+const common = require('./webpack.common');
 
 module.exports = merge(common, {
   // webpack.common.js와 merge해줍니다
-  mode: "development",
+  mode: 'development',
   devServer: {
     open: true,
     port: 3000,
