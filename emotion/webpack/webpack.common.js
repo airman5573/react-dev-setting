@@ -33,5 +33,9 @@ module.exports = {
   ],
   resolve: {
     extensions: ['.tsx', '.ts', '.jsx', '.js'],
+    alias: {
+      '@components': resolve(__dirname, '../src/components'),
+      '@styles': resolve(__dirname, '../src/styles'),
+    },
   },
 };
