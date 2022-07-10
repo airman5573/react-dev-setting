@@ -50,6 +50,7 @@
         "jsx": "never" // jsx 마저도!
       }
     ],
-    "react/prop-types": "off" // typescript를 사용 하니까 prop-types안써도 될듯 싶다
+    "react/prop-types": "off", // typescript를 사용 하니까 prop-types안써도 될듯 싶다
+    "@typescript-eslint/no-var-requires": "off"
   }
 }
