@@ -26,6 +26,12 @@
     // 내 프로젝트에서는 타입을 업격하게 하기로 설정 했다면, 이 설정의 차이에서 오는 오류들을
     // 무시할 수 있도록 해줍니다.
 
+    "allowSyntheticDefaultImports": true,
+
+    "jsx": "preserve",
+
+    "jsxImportSource": "@emotion/react",
+
     "strict": true,
     // strict로 시작하는 옵션들을 true로 해줍니다.
     // strictFunctionTypes, strictNullChecks같은 옵션들이 true로 됩니다.
