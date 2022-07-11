@@ -21,6 +21,9 @@
 ### 조합
 
 #### Emotion
+- [emotion branch](https://github.com/airman5573/react-dev-setting/tree/emotion)
+- [상세 설명](https://develoger.kr/frontend/cra%ec%97%86%ec%9d%b4-%eb%a6%ac%ec%95%a1%ed%8a%b8-%ed%99%98%ea%b2%bd-%ec%84%a4%ec%a0%95/)
+
 
 #### Emotion + Tailwind + Twin.macro
 
